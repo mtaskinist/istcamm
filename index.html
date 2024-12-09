@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Sayfa</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: linear-gradient(135deg, #3498db, #2ecc71);
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin: 10px 0 0;
+        }
+        nav {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        nav a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #2ecc71;
+            text-decoration: underline;
+        }
+        .content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 30px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .card {
+            background: linear-gradient(135deg, #ffffff, #f9f9f9);
+            border-radius: 12px;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-decoration: none;
+            color: inherit;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 2px solid #ddd;
+            transition: transform 0.3s;
+        }
+        .card:hover img {
+            transform: scale(1.1);
+        }
+        .card h3 {
+            padding: 15px;
+            font-size: 1.2rem;
+            text-align: center;
+            background: #3498db;
+            color: #fff;
+            margin: 0;
+            border-radius: 0 0 12px 12px;
+            transition: background 0.3s;
+        }
+        .card:hover h3 {
+            background: #2ecc71;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ana Sayfa</h1>
+        <p>Modern Tasarım ve Zengin İçerik</p>
+    </header>
+    <nav>
+        <a href="list.html" rel="dofollow">Site Map</a>
+    </nav>
+    <div class="content">
+        <a href="list.html" class="card">
+            <img src="images/teknoloji.webp" alt="teknoloji">
+            <h3>teknoloji</h3>
+        </a>
+        <a href="list.html" class="card">
+            <img src="images/bilim.webp" alt="bilim">
+            <h3>bilim</h3>
+        </a>
+        <a href="list.html" class="card">
+            <img src="images/spor.webp" alt="spor">
+            <h3>spor</h3>
+        </a>
+        <a href="list.html" class="card">
+            <img src="images/saglik.webp" alt="saglik">
+            <h3>saglik</h3>
+        </a>
+        <a href="list.html" class="card">
+            <img src="images/internet.webp" alt="internet">
+            <h3>internet</h3>
+        </a>
+        <a href="list.html" class="card">
+            <img src="images/haber.webp" alt="haber">
+            <h3>haber</h3>
+        </a>
+        <a href="list.html" class="card">
+            <img src="images/ekonomi.webp" alt="ekonomi">
+            <h3>ekonomi</h3>
+        </a>
+        <a href="list.html" class="card">
+            <img src="images/gelisim.webp" alt="gelisim">
+            <h3>gelisim</h3>
+        </a>
+        <a href="list.html" class="card">
+            <img src="images/enerji.webp" alt="enerji">
+            <h3>enerji</h3>
+        </a>
+        <a href="list.html" class="card">
+            <img src="images/tasarim.webp" alt="tasarim">
+            <h3>tasarim</h3>
+        </a>
+    </div>
+    <footer>
+        &copy; 2024 Ana Sayfa
+    </footer>
+</body>
+</html>
