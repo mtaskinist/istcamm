@@ -1,4 +1,3 @@
 User-agent: *
-Disallow: /pages/
-
-Sitemap: http://istanbulescort.cam/sitemap.xml
+Allow: 
+Sitemap: https://istanbulescort.city/sitemap.xml
